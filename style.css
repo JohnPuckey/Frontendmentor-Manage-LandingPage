@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam:400,500,700&display=swap');
+
+/* Variables */
+
+:root {
+    --primary-bright-red: hsl(12, 88%, 59%);
+    --primary-dark-blue: hsl(228, 39%, 23%);
+    --neutral-dark-grey-blue: hsl(227, 12%, 61%);
+    --neutral-dark-blue: hsl(233, 12%, 13%);
+    --neutral-pale-red: hsl(13, 100%, 96%);
+    --neutral-light-grey: hsl(0, 0%, 98%);
+}
+
+/* universal styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: var(--neutral-light-grey);
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 h6 {
+    color: var(--primary-dark-blue);
+}
+
+p {
+    font-size: 1rem;
+    color: var(--neutral-dark-grey-blue);
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+a.get-started {
+    font-size: .8rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--primary-bright-red);
+    padding: 10px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0px 15px 11px -10px rgba(235, 166, 129, 1);
+}
+
+a.get-started:hover {
+    opacity: 75%;
+}
+
+.white-txt {
+    color: #fff;
+}
+
+/* Header */
+
+/* Navigation  */
+
+/* Intro Section */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.intro h1 {
+    margin: 0 auto 10px;
+}
+
+.intro p {
+    width: 300px;
+    margin: 0 auto 30px;
+}
+
+.intro img {
+    width: 325px;
+    margin: 30px auto 0;
+}
+
+.intro-right {
+    order: 1;
+}
+
+.intro-left {
+    order: 2;
+}
+
+/* About Section */
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.about-left h2 {
+    width: 300px;
+    margin: 0 auto 30px;
+}
+
+.about-left p {
+    width: 325px;
+    margin: 0 auto 30px;
+}
+
+.about-header {
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    padding: 10px 25px;
+    left: 25px;
+    background-color: var(--primary-bright-red);
+    border-radius: 20px;
+    color: #fff;
+}
+
+.about-header  h4 {
+    margin-left: 30px;
+    
+    background-color: var(--neutral-pale-red);
+    padding: 10px 0 10px 70px;
+}
+
+.about-right p {
+    width: 310px;
+    margin: 0 auto 50px 26px;
+    font-size: .8rem;
+    line-height: 1.5rem;
+}
+
+/* Testimonials Section */
+
+/* CTA Section */
+
+.cta {
+    background-color: var(--primary-bright-red);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    text-align: center;
+}
+
+.cta h1 {
+    margin: 0 30px 25px;
+}
+
+a.get-started-white {
+    font-size: .8rem;
+    font-weight: 500;
+    background-color: #fff;
+    color: var(--primary-bright-red);
+    padding: 10px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0px 15px 11px -10px rgba(235, 166, 129, 1);
+}
+
+a.get-started-white:hover {
+    opacity: 75%;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: var(--neutral-dark-blue);
+}
+
+.social-link img {
+    width: 35px;
+}
